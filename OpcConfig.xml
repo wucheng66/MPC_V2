@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpcConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Servers>
+    <OpcCfgServer Name="HBSHCDUSimOpc.Server">
+      <CurrentGroupIndex>0</CurrentGroupIndex>
+      <Groups>
+        <OpcCfgGroup Name="CDU">
+          <Items>
+            <string>CD_AI10061</string>
+            <string>CD_AI11101</string>
+            <string>CD_DATARECORD</string>
+          </Items>
+        </OpcCfgGroup>
+      </Groups>
+    </OpcCfgServer>
+    <OpcCfgServer Name="HBSHJQSimOpc.Server">
+      <CurrentGroupIndex>1</CurrentGroupIndex>
+      <Groups>
+        <OpcCfgGroup Name="">
+          <Items>
+            <string>JQ_SPARESP07</string>
+          </Items>
+        </OpcCfgGroup>
+        <OpcCfgGroup Name="qqqq">
+          <Items>
+            <string>JQ_SPARESP07</string>
+            <string>JQ_FAULT001</string>
+            <string>JQ_P101A</string>
+            <string>JQ_P101B</string>
+            <string>JQ_DATARECORD</string>
+            <string>JQ_OPERNAME</string>
+            <string>JQ_STARTSIMFLAG</string>
+            <string>JQ_STARSIMTIME</string>
+          </Items>
+        </OpcCfgGroup>
+      </Groups>
+    </OpcCfgServer>
+    <OpcCfgServer Name="HBSHSFSimOpc.Server">
+      <CurrentGroupIndex>0</CurrentGroupIndex>
+      <Groups>
+        <OpcCfgGroup Name="grp1">
+          <Items>
+            <string>SF_TI1001</string>
+            <string>SF_OPERNAME</string>
+            <string>SF_DATARECORD</string>
+          </Items>
+        </OpcCfgGroup>
+      </Groups>
+    </OpcCfgServer>
+    <OpcCfgServer Name="PumpingSimOPC.Server">
+      <CurrentGroupIndex>0</CurrentGroupIndex>
+      <Groups>
+        <OpcCfgGroup Name="yyyy">
+          <Items>
+            <string>AIItem1</string>
+            <string>AIItem2</string>
+            <string>AIItem4</string>
+            <string>AIItem5</string>
+            <string>AIItem7</string>
+            <string>AIItem9</string>
+            <string>AOItem10</string>
+            <string>AOItem4</string>
+            <string>AOItem5</string>
+            <string>AOItem7</string>
+            <string>AOItem8</string>
+          </Items>
+        </OpcCfgGroup>
+      </Groups>
+    </OpcCfgServer>
+  </Servers>
+  <CurrentServerIndex>3</CurrentServerIndex>
+</OpcConfig>
